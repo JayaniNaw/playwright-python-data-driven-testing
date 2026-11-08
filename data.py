@@ -1,0 +1,2 @@
+url="https://www.saucedemo.com/"
+inventory_url="https://www.saucedemo.com/inventory.html"

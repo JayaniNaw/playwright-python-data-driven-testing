@@ -1,0 +1,9 @@
+﻿test_id,description,username,password,expected_result
+1,valid username and a password,standard_user,secret_sauce,https://www.saucedemo.com/inventory.html
+2,valid username and an empty password,standard_user,,Epic sadface: Password is required
+3,empty username and a password,,38343,Epic sadface: Username is required
+4,valid username and an invalid password,standard_user,notapwd,Epic sadface: Username and password do not match any user in this service
+5,invalid username and a valid password,£45hght,secret_sauce,Epic sadface: Username and password do not match any user in this service
+6,both username and the password are invalid,invalid user,245rerw,Epic sadface: Username and password do not match any user in this service
+7,both username and the password are empty,,,Epic sadface: Username is required
+8,different valid username and a password,visual_user,secret_sauce,https://www.saucedemo.com/inventory.html
